@@ -11,6 +11,8 @@ numpy = "*"
 scikit-learn = "*"
 requests = "*"
 beautifulsoup4 = "*"
+html5lib = "*"
+lxml = "*"
 
 [requires]
 python_version = "3.7"
