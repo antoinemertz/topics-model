@@ -13,6 +13,9 @@ requests = "*"
 beautifulsoup4 = "*"
 html5lib = "*"
 lxml = "*"
+psycopg2 = "*"
+pandas = "*"
+sqlalchemy = "*"
 
 [requires]
 python_version = "3.7"
