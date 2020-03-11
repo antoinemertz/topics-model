@@ -16,6 +16,7 @@ lxml = "*"
 psycopg2 = "*"
 pandas = "*"
 sqlalchemy = "*"
+update = "*"
 
 [requires]
 python_version = "3.7"
