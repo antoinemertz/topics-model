@@ -69,6 +69,7 @@ def write_in_db(headlines, db_name, table_name):
     """
 
     df = pd.DataFrame({"source": "franceinfo", "headline": headlines, "date": pd.to_datetime('today').to_pydatetime().date()})
+    df = df.drop_duplicates(subset="headline", keep="first")
     print(df.head())
     alchemy_engine = create_engine('postgresql+psycopg2://antoinemertz@localhost/'+str(db_name), pool_recycle=3600)
 
