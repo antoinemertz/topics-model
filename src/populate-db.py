@@ -1,5 +1,6 @@
 # setup
 import pandas as pd
+import numpy as np
 import requests
 from bs4 import BeautifulSoup
 import psycopg2
@@ -74,6 +75,10 @@ def write_in_db(headlines, db_name, table_name):
     alchemy_engine = create_engine('postgresql+psycopg2://antoinemertz@localhost/'+str(db_name), pool_recycle=3600)
 
     conn = alchemy_engine.connect()
+
+    already_in = pd.read_sql("SELECT * FROM {};".format(table_name), conn)
+    for x in np.intersect1d(df["headline"], already_in["headline"]):
+        df = df[df["headline"] != x]
 
     try:
         frame = df.to_sql(name=table_name, con=conn, if_exists='append', index=False)
