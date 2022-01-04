@@ -21,7 +21,7 @@
                 "sha256:6372ad78c89d662035101418ae253668445b391755cfe94ea52f1b9d22425b20",
                 "sha256:cffa11ea77999bb0dd27bb25ff6dc142a6796142f68d45b1a26b11f58724561e"
             ],
-            "markers": "python_full_version < '3.8.0'",
+            "markers": "python_version < '3.8'",
             "version": "==2.0.0"
         },
         "argon2-cffi": {
@@ -232,7 +232,7 @@
                 "sha256:92a8b58ce734b2a4494878e0ecf7d79ccd7a128b5fc6014c401e0b61f006f0f6",
                 "sha256:b7cf7d3fef75f1e4c80a96ca660efbd51473d7e8f39b5ab9210febc7809012a4"
             ],
-            "markers": "python_full_version < '3.8.0'",
+            "markers": "python_version < '3.8'",
             "version": "==4.10.0"
         },
         "importlib-resources": {
@@ -323,11 +323,11 @@
         },
         "jupyterlab": {
             "hashes": [
-                "sha256:5d1a833a9e49e6d90d68191917cb16a97ff4ec668c26c85d33ebce629df14141",
-                "sha256:7c0a777aae68bc11c2a772d4c1e32c1f2a15388a3fb4fd43fa621e2261c368e9"
+                "sha256:802a57815a6af0f42dfd19a1b6b5d526f0605f1422c2d395cf837141975321e2",
+                "sha256:b51fbd28b93f22d310207b8720ba3ee7e56da8bdf281fa2b92843680932f7262"
             ],
             "index": "pypi",
-            "version": "==2.0.1"
+            "version": "==2.2.10"
         },
         "jupyterlab-pygments": {
             "hashes": [
@@ -338,11 +338,11 @@
         },
         "jupyterlab-server": {
             "hashes": [
-                "sha256:13dc66acd6aee04907af015e840d36dc51380af2c03bdaccc3d4de525c29b9e6",
-                "sha256:2096f7a7797997727176c599779ab41f0f10ec8ad50070ca33ae4b3e109294ff"
+                "sha256:5431d9dde96659364b7cc877693d5d21e7b80cea7ae3959ecc2b87518e5f5d8c",
+                "sha256:55d256077bf13e5bc9e8fbd5aac51bef82f6315111cec6b712b9a5ededbba924"
             ],
             "markers": "python_version >= '3.5'",
-            "version": "==1.0.9"
+            "version": "==1.2.0"
         },
         "lxml": {
             "hashes": [
@@ -981,7 +981,7 @@
                 "sha256:4ca091dea149f945ec56afb48dae714f21e8692ef22a395223bcd328961b6a0e",
                 "sha256:7f001e5ac290a0c0401508864c7ec868be4e701886d5b573a9528ed3973d9d3b"
             ],
-            "markers": "python_full_version < '3.8.0'",
+            "markers": "python_version < '3.8'",
             "version": "==4.0.1"
         },
         "update": {
